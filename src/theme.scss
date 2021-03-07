@@ -1,0 +1,25 @@
+:root, [data-theme="default"] {
+    --main-color: rgb(109, 109, 202);
+    --element-color: rgb(137, 137, 224);
+    --color-light: rgb(179, 179, 179);
+    --color-bg: azure;
+    --element-color-light: rgb(200, 200, 255);
+    --font-color: black;
+}
+[data-theme="red"] {
+    --main-color: rgb(146, 23, 23);
+    --element-color: rgb(141, 66, 66);
+    --color-light: rgb(179, 179, 179);
+    --color-bg: azure;
+    --element-color-light: rgb(228, 125, 125);
+    --font-color: black;
+}
+[data-theme="blue"] {
+    --main-color: rgb(23, 107, 146);
+    --element-color: rgb(23, 107, 146);
+    --color-light: rgb(68, 133, 163);
+    --color-bg: rgb(16, 49, 49);
+    --element-color-light: rgb(157, 224, 224);
+    --font-color: #fff;
+}
+

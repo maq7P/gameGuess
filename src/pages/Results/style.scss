@@ -1,0 +1,41 @@
+.results{
+    &__wrapper{
+        min-height: 500px;
+    }
+}
+.results-main {
+    margin-top: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+    &__item{
+        padding: 5px 20px;
+        border: 1px solid var(--element-color);
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        &--first {
+            border: 3px solid gold;
+        }
+
+        &--second {
+            border: 3px solid rgb(163, 161, 161);
+        }
+
+        &--third {
+            border: 3px solid rgb(255, 166, 0);
+        }
+    }
+    &__place {
+        &--first {
+            color:  gold;
+        }
+
+        &--second {
+            color:  rgb(163, 161, 161);
+        }
+
+        &--third {
+            color:  rgb(255, 166, 0);
+        }
+    }
+}

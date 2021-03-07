@@ -1,0 +1,51 @@
+.mainPage-nav{
+    &__list{
+        margin-bottom: 20px;
+        position: relative;
+    }
+    &__item{
+        font-size: 60px;
+        padding: 10px 20px;
+
+        &-title{
+            color: var(--color-light);
+            transition: color ease-in .15s;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                bottom: -10px;
+                width: 0;
+                height: 5px;
+                background-color: var(--element-color);
+                opacity: 0;
+                transition: all .4s;
+            }
+            &:hover {
+                color: var(--element-color);
+                &::before {
+                    opacity: 1;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    &__btn {
+        background-color: var(--element-color);
+        display: block;
+        margin: auto;
+        width: 100%;
+        font-size: 20px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        position: relative;
+        outline: none;
+        transition: background-color .1s;
+        &:hover{
+            background-color: var(--element-color-light)
+        }
+        span {
+            color: #fff;
+        }
+    }
+}

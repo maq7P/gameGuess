@@ -1,0 +1,12 @@
+@import "./theme.scss";
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--color-bg);
+    font-family: 'Jura',sans-serif;
+    color: var(--font-color);
+
+    transition: background-color .4s;
+}

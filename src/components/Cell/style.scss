@@ -1,0 +1,17 @@
+.cell {
+    background-color: var(--element-color);
+    display: inline-block;
+    transform-style: preserve-3d;
+    transition: .4s;
+    text-align: center;
+    user-select: none;
+    span{
+        color: var(--element-color-light);
+    }
+    &--active {
+        transform: rotateY(180deg);
+    }
+    &--find {
+        background-color: green;
+    }
+}
